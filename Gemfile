@@ -38,3 +38,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'haml'
+gem 'jquery-turbolinks'
+gem 'normalize-rails'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
+
+gem 'high_voltage', '~> 2.1.0'
