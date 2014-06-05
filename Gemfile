@@ -29,9 +29,6 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,3 +43,13 @@ gem 'neat'
 gem 'bitters'
 
 gem 'high_voltage', '~> 2.1.0'
+
+group :development do
+  gem 'pry'
+  gem 'better_errors'
+  gem 'awesome_print'
+end
+
+group :production do
+  gem 'unicorn'
+end
